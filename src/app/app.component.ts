@@ -1,10 +1,13 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { DataService } from './data.service';
+import { WaschbenzinDataService } from './waschbenzin.ihm.sein.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'AMA_1120222';
+  data$ = inject(DataService).data$$;
+  waschbenzin$ = inject(WaschbenzinDataService).getData();
 }

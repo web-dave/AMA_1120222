@@ -1,0 +1,35 @@
+{
+  "ids": [
+    { "id": 1 },
+    { "id": 2 },
+    { "id": 3 },
+    { "id": 4 },
+    { "id": 5 },
+    { "id": 6 },
+    { "id": 7 },
+    { "id": 8 },
+    { "id": 9 }
+  ],
+  "names": [
+    { "id": 1, "name": "User123_1" },
+    { "id": 2, "name": "User123_2" },
+    { "id": 3, "name": "User123_3" },
+    { "id": 4, "name": "User123_4" },
+    { "id": 5, "name": "User123_5" },
+    { "id": 6, "name": "User123_6" },
+    { "id": 7, "name": "User123_7" },
+    { "id": 8, "name": "User123_8" },
+    { "id": 9, "name": "User123_9" }
+  ],
+  "colors": [
+    { "id": 1, "color": "color_1" },
+    { "id": 2, "color": "color_2" },
+    { "id": 3, "color": "color_3" },
+    { "id": 4, "color": "color_4" },
+    { "id": 5, "color": "color_5" },
+    { "id": 6, "color": "color_6" },
+    { "id": 7, "color": "color_7" },
+    { "id": 8, "color": "color_8" },
+    { "id": 9, "color": "color_9" }
+  ]
+}
